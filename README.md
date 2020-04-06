@@ -1,1 +1,4 @@
-# MMLR
+This work is funded by the post-doctoral research aid programme of the Republic of Latvia (No. 1.1.1.2/VIAA/1/16/075).
+
+Markov-modulated linear regression was firstly proposed by professor Alexander Andronov. This model is a special case of the Markov additive process (Y, J), where component J is called Markov, and component Y is additive and described by a linear regression. The component J is a continuous-time homogeneous irreducible Markov chain with the known transition intensities between the states. Usually this Markov component is called the external environment or background process. Unknown regression coefficients depend on external environment state, but regressors remain constant.
+In the considered case the Markov property is not satisfied, namely, the sojourn time in each state is not exponentially distributed. Estimation procedure for unknown model parameters is described when it’s possible to represent transition intensities as a convolution of exponential densities. An efficiency of such an approach is evaluated by a simulation.
