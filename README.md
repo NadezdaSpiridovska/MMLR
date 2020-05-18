@@ -5,6 +5,7 @@ Markov-modulated linear regression (MMLR) was firstly proposed by professor Alex
 Markov-switching regression models or regime switching regression models share the same idea of varying the regression parameters randomly in accordance with external environment. However, these models have significant differences in terms of the analytical approach.  Namely, MMLR describes the external environment as a continuous-time homogeneous irreducible Markov chain with known parameters. On the other hand, switching models consider Markov chain as unobservable and estimation procedure involves estimation of transition matrix.
 
 References
+
 [1] Alexander M. Andronov, Nadezda Spiridovska. Markov-Modulated Linear Regression. In proceedings’ book: International conference on Statistical Models and Methods for Reliability and Survival Analysis and Their Validation (S2MRSA), Bordeaux, France, pp.24–28., arXiv:1901.09600v1., 2012.
 
 [2] Spiridovska, N.: A Quasi-Alternating Markov-Modulated Linear Regression: Model Implementation Using Data about Coaches’ Delay Time. International journal of circuits, systems and signal processing 12, 617–628, 2018.
