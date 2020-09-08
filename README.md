@@ -6,24 +6,24 @@ Markov-switching regression models or regime switching regression models share t
 
 The developed scripts can be applied to analyse statistical properties of MMLR model’s estimator based on simulated data. The examples below consider the influence of the sample parameters (e.g., sample size and distribution of the initial data), as well the influence of estimation method details (e.g., different weight matrices in OLS) on the consistency of model estimates. 
 
-In case of the identity weight matrix, non-uniformity of observations is not taken into account, variance σ^2=4 and its estimation is not required. 
+In case of the identity weight matrix, non-uniformity of observations is not taken into account, variance and its estimation is not required. 
 The table demonstrates that even after thousand iterations, estimates of some coefficients are distinguished by relatively large deviations from the true parameters.
 
-https://github.com/NadezdaSpiridovska/MMLR/blob/master/pictures/table1.png
+![](pictures/table1.png)
 
+The case of the diagonal weight matrix, in which the diagonal elements are the inverse values of the variances of the dependent variable. Such a weight matrix is applied to minimize the variance of the estimates and to improve the convergence. In practical settings the unknown parameters β and variance are subject to estimation as well. However, this experiment assumes that their values are known, for example, obtained in a previous study. 
 
-
-The case of the diagonal weight matrix, in which the diagonal elements are the inverse values of the variances of the dependent variable. Such a weight matrix is applied to minimize the variance of the estimates and to improve the convergence. In practical settings the unknown parameters β and σ^2 are subject to estimation as well. However, this experiment assumes that their values are known, for example, obtained in a previous study. 
-
-
+![](pictures/table2.png)
 
 The figures below reflect changes of the determination coefficients for both cases. Since R2 naturally increases along with growing sample size, it cannot be fully reliable. In this regard, in order to verify the quality of the model, RMSE (Fig.2) and F-statistic (Fig.3) were also calculated. All three figures demonstrate the advantage 
 of weight matrix with the inverse values of the response variable.
-
+![](pictures/mape.png)
+![](pictures/RMSE.png)
+![](pictures/F.png)
 
 In the last experiment extra noise is inserted to the matrix of regressors. The results of the estimates are presented in Table 3 depending on the value of NF. 
 
-
+![](pictures/table3.png)
 
 References
 
