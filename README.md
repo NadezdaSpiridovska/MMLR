@@ -9,7 +9,7 @@ The developed scripts can be applied to analyse statistical properties of MMLR m
 In case of the identity weight matrix, non-uniformity of observations is not taken into account, variance σ^2=4 and its estimation is not required. 
 The table demonstrates that even after thousand iterations, estimates of some coefficients are distinguished by relatively large deviations from the true parameters.
 
-
+https://github.com/NadezdaSpiridovska/MMLR/blob/master/pictures/table1.png
 
 
 
