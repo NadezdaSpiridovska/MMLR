@@ -15,7 +15,7 @@ The case of the diagonal weight matrix, in which the diagonal elements are the i
 
 ![](pictures/table2_1.png)
 
-The figures below reflect changes of the determination coefficients for both cases. Since R2 naturally increases along with growing sample size, it cannot be fully reliable. In this regard, in order to verify the quality of the model, RMSE (Fig.2) and F-statistic (Fig.3) were also calculated. All three figures demonstrate the advantage 
+The figures below reflect changes of the determination coefficients for both cases. Since R2 naturally increases along with growing sample size, it cannot be fully reliable. In this regard, in order to verify the quality of the model, RMSE and F-statistic were also calculated. All three figures demonstrate the advantage 
 of weight matrix with the inverse values of the response variable.
 ![](pictures/mape.png)
 ![](pictures/RMSE.png)
